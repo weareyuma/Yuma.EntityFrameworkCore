@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+   <PropertyGroup>
+      <AssemblyName>Yuma.EntityFrameworkCore.Tests</AssemblyName>
+      <RootNamespace>Yuma</RootNamespace>
+      <Description>Yuma's Distributed Application Libraries: Unit Tests for Useful Helpers and Extensions for EntityFrameworkCore.</Description>
+      <IsPackable>false</IsPackable>
+   </PropertyGroup>
+
+   <ItemGroup>
+      <ProjectReference Include="..\Yuma.EntityFrameworkCore\Yuma.EntityFrameworkCore.csproj"/>
+   </ItemGroup>
+
+   <ItemGroup>
+      <PackageReference Include="AutoFixture"/>
+      <PackageReference Include="AutoFixture.AutoMoq"/>
+      <PackageReference Include="AutoFixture.Xunit2"/>
+      <PackageReference Include="coverlet.collector"/>
+      <PackageReference Include="FluentAssertions"/>
+      <PackageReference Include="MicroElements.AutoFixture.NodaTime"/>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer"/>
+      <PackageReference Include="Microsoft.NET.Test.Sdk"/>
+      <PackageReference Include="Moq"/>
+      <PackageReference Include="NodaTime"/>
+      <PackageReference Include="Testcontainers.MsSql"/>
+      <PackageReference Include="Testcontainers.Xunit"/>
+      <PackageReference Include="xunit"/>
+      <PackageReference Include="xunit.analyzers"/>
+      <PackageReference Include="xunit.runner.visualstudio"/>
+      <PackageReference Include="Yuma.Unit"/>
+   </ItemGroup>
+
+</Project>
