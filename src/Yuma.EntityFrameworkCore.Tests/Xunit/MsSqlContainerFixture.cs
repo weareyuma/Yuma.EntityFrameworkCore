@@ -31,7 +31,7 @@ internal sealed class MsSqlContainerFixture(IMessageSink messageSink) : DbContai
 	protected override MsSqlBuilder Configure(MsSqlBuilder builder)
 	{
 		return builder.WithImage("mcr.microsoft.com/mssql/server:2022-latest")
-			.WithName("aprico-lib-mssql-test-container");
+			.WithName("yuma-lib-mssql-test-container");
 	}
 
 	#endregion
